@@ -1,0 +1,56 @@
+body{
+    background: rgb(110,9,121);
+    background: linear-gradient(90deg, rgba(110,9,121,1) 0%, rgba(93,7,116,1) 58%, rgba(72,0,255,1) 100%);
+}
+.title {
+    color: #fff;
+    padding: 10px;
+    margin: 30px;
+}
+.navbar{
+    background: rgb(116, 7, 116);
+}
+.navbar  a{
+    color: #fff;
+    font-size: 18px;
+}
+.navbar a:hover{
+    color: #ff0;
+    transition:  0.6s all;
+}
+.logo{
+    width: 75px;
+    height: 50px;
+}
+.icon{
+    margin-right: 5px;
+    margin-left: 15px;
+}
+.navbar-toggler{
+    background: rgb(60, 4, 112);
+}
+.navbar-toggler-icon{
+    color: #fff;
+    margin-top: 7px;
+}
+.img{
+    height: 345px;
+}
+.texto{
+    text-shadow: 0 0 10px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 2px 2px 2px rgba(206,89,55,0);
+    font-size: 3rem;
+}
+.texto2{
+    text-shadow: 0 0 10px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 2px 2px 2px rgba(206,89,55,0);
+    color: #fff;
+    justify-content: center;
+}
+label{
+    font-size: 1.4rem;
+}
+@media screen and (max-width: 991px){
+    li{
+        text-align: center;
+    }
+}
+
